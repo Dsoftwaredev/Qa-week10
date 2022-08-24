@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header.js';
 import Footer from './Footer';
 import Rickimg from './Rickimg';
+import Login from './Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Login />
     <App />
     <Rickimg />
     <Footer />
